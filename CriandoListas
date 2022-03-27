@@ -1,0 +1,19 @@
+void main() {
+  //criando uma lista normalmente
+  List<String> pessoas = ['marcelo', 'joão', 'junior', 'alex'];
+  //criando lista sem especificar o tipo
+  List num = [1, 2, 3];
+  //criando lista vazia
+  List<int> num2 = [];
+  //crinando listas dinâmicas
+  List aleatorio = [1, 'olá mundo', true];
+  List<dynamic> aleatorio2 = aleatorio;
+  //criando lista que pode ser nula
+  List<double>? alturas;
+  //criando lista em que seus valores podem ser nulo(s)
+  List<double?> pesos = [58.2, 63.5, 79.7, null];
+  //criando lista que pode ser nula e que seus valores tambem podem
+  List<double?>? salarios;
+  
+  print(pessoas);
+}
